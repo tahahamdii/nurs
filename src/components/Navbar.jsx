@@ -3,7 +3,6 @@ import logo from '../assets/loog.png';
 import { FaBars, FaTimes } from 'react-icons/fa'; // Assuming you're using react-icons for the icons
 import { Link } from "react-scroll";
 import './sheet.css';
-import ButtonGroup from 'flowbite-react/lib/esm/components/Button/ButtonGroup';
 
 
 const Navbar = () => {
@@ -56,7 +55,7 @@ const Navbar = () => {
         <header className='w-full bg-white md:bg-transparent fixed top-0 left-0 right-0'>
             <nav className={`py-4 lg:px-14 px-4 ${isSticky ? "sticky top-0 left-0 right-0 border-b bg-white duration-300" : ""}`}>
                 <div className='flex justify-between items-center text-base gap-8'>
-                    <a href='' className='text-2x1 font-semibold flex items-center space-x-3'><img src={logo} alt='' className='w-10 inline-block items-center' /><span style={gradientText} className='text-LogoText ' id='logo'>NursyAi</span></a>
+                    <a href='' className='font-semibold flex items-center space-x-3'><img src={logo} alt='' className='w-10 inline-block items-center' /><span style={gradientText} className='text-LogoText ' id='logo'>NursyAi</span></a>
                     {/* nav items for lager devices */}
                     <ul className='md:flex space-x-12 hidden'>
                         {
