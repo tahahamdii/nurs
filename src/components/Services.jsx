@@ -71,7 +71,7 @@ const Services = () => {
 
               {/* Nos Fonctionnalités : */}
               <div style={{ marginTop: '100px' }}>
-                <h2 style={{ fontSize: '3.5rem' }} className='text 5x1 text-NormalHeader font-bold mb-2 text-center'> Nos Fonctionnalités :</h2>
+                <h2 style={{ fontSize: '3rem' }} className='text 5x1 text-NormalHeader font-bold mb-2 text-center'> Nos Fonctionnalités :</h2>
 
             </div>
             {/* cards Fonctionnalités*/}
