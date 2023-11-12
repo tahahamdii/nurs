@@ -14,6 +14,8 @@ const Footer = () => {
                 <p style={{ fontSize: '1.5rem' }} className='text-white font-light mt-10'>About</p>
                 <p style={{ fontSize: '1.5rem' }} className='text-white font-light mt-10'>Fonctionnalités</p>
                 <p href ='#'style={{ fontSize: '1.5rem' }} className='text-white font-light mt-10'>Contact</p>
+                <p href ='#'style={{ fontSize: '1.5rem' }} className='text-white font-light mt-10'>mehdighribaa@nursyai.com</p>
+
 
             </div>
             <p className='text-center text-white font-light'>© Copyright 2023 | NursyAI | All Rights Reserved |</p>
