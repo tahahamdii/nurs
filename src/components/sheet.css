@@ -1,0 +1,65 @@
+.text-link-underline {
+    text-decoration: none;
+    position: relative;
+  }
+  
+  .text-link-underline::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #5974E9; /* Change this color to your preferred color */
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease;
+  }
+  
+  .text-link-underline:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+
+/* Home.css */
+.rotating-circle {
+  position: relative;
+  width: 400px; /* Adjust the circle size */
+  height: 400px; /* Adjust the circle size */
+  border: 2px solid white;
+  border-radius: 50%;
+  margin-top: 10%;
+}
+
+.circle-image {
+  position: absolute;
+  width: 50px; /* Adjust the image size */
+  height: 50px; /* Adjust the image size */
+  border-radius: 50%;
+  top: 50%;
+  left: 10%;
+  animation: orbit 10s linear infinite;
+}
+
+@keyframes orbit {
+  0% {
+    transform: rotate(0deg) translateX(180px) rotate(0deg);
+    /* Move the images away from the center of the orbit */
+  }
+  100% {
+    transform: rotate(360deg) translateX(180px) rotate(-360deg);
+    /* Rotate the images around the orbit */
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .mt-20 {
+    background-attachment: fixed;
+    /* Adjust any specific padding or margin to fit smaller screens */
+    margin-top: 50px; /* Adjust this value to fit your design */
+  }
+}
+/* */
+

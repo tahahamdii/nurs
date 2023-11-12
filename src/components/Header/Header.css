@@ -1,0 +1,239 @@
+.box {
+    height: 600px;
+    width: 600px;
+
+}
+
+.box .group {
+    height: 509px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transform: rotate(150deg);
+    width: 557px;
+    top: 15%;
+    left: 65%;
+}
+
+.box .overlap {
+    height: 509px;
+}
+
+h1 {
+
+    position: absolute;
+    /* Adjust the bottom distance */
+    left: 35px;
+    top: 20%;
+    font-size: 100px;
+    /* Adjust the left distance */
+    color: white;
+    opacity: 0;
+    z-index: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.box .circles {
+    height: 499px;
+    left: 58px;
+    position: absolute;
+    top: 0;
+    width: 499px;
+}
+
+.show {
+    opacity: 1;
+}
+
+.box .overlap-group {
+    border-radius: 249.62px;
+    height: 499px;
+    position: relative;
+}
+
+.box .ellipse {
+    border: 3px solid;
+    border-color: #ffffff;
+    border-radius: 198.65px;
+    box-shadow: 0px 0px 15px 1px #ffffff;
+    height: 397px;
+    left: 51px;
+    position: absolute;
+    top: 51px;
+    width: 397px;
+}
+
+.box .div {
+    border: 3px solid;
+    border-color: #ffffff;
+    border-radius: 145.61px;
+    box-shadow: 0px 0px 15px 1px #ffffff;
+    height: 291px;
+    left: 104px;
+    position: absolute;
+    top: 104px;
+    width: 291px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.box .div img {
+    max-width: 100%;
+    /* Ensure the image doesn't exceed the container */
+    max-height: 100%;
+    /* Ensure the image doesn't exceed the container */
+    display: block;
+    margin: auto;
+    transform: rotate(205deg);
+    width: 150%;
+    /* Increase the width to make it larger */
+    height: 150%;
+    opacity: 0;
+
+}
+
+.box .ellipse-2 {
+    border: 3px solid;
+    border-color: #ffffff;
+    border-radius: 249.62px;
+    box-shadow: 0px 0px 15px 1px #ffffff;
+    height: 499px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 499px;
+}
+
+.box .shapes {
+    height: 504px;
+    left: 0;
+    position: absolute;
+    top: 5px;
+    width: 524px;
+    animation: rotateShapes 3s linear infinite;
+}
+
+
+.box .frame {
+    height: 78px;
+    left: 14px;
+    position: absolute;
+    top: 223px;
+    transform: rotate(-150deg);
+    width: 78px;
+}
+
+.box .img-wrapper {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 1px #ffffff;
+    height: 78px;
+    position: relative;
+}
+
+.box .solar-health-bold {
+    height: 50px;
+    left: 14px;
+    position: absolute;
+    top: 13px;
+    width: 49px;
+}
+
+.box .doctor-wrapper {
+    height: 78px;
+    left: 431px;
+    position: absolute;
+    top: 14px;
+    transform: rotate(-150deg);
+    width: 78px;
+}
+
+.box .maki-doctor {
+    height: 50px;
+    left: 15px;
+    position: absolute;
+    top: 13px;
+    width: 50px;
+}
+
+.box .vaccin-wrapper {
+    height: 78px;
+    left: 418px;
+    position: absolute;
+    top: 426px;
+    width: 78px;
+}
+
+.box .vaccin {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 1px #ffffff;
+    height: 78px;
+    position: relative;
+    transform: rotate(-150deg);
+}
+
+.box .tabler-vaccine {
+    height: 48px;
+    left: 16px;
+    position: absolute;
+    top: 18px;
+    transform: rotate(150deg);
+    width: 48px;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes changeText {
+    0% {
+        opacity: 1;
+    }
+
+    33.33% {
+        opacity: 0;
+    }
+
+    66.66% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.headerContainer {
+    display: flex;
+  }
+  
+  .responsiveH1 {
+    font-size: 60px;
+    flex: 1;
+    max-width: 50%; /* Adjust the width as needed */
+    margin: 0;
+    padding: 20px; /* Optional: add padding for better spacing */
+  }
+  
+  @media (max-width: 768px) {
+    .responsiveH1 {
+      max-width: 100%;
+      font-size: 40px; /* Adjust for smaller screens */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .box {
+      display: none; /* This will hide the entire box on screens smaller than 768px */
+    }
+  }
