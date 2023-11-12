@@ -5,7 +5,6 @@ import Navbar from './components/Navbar'
 import Services from './components/Services'
 import Heart from './components/Heart'
 import Footer from './components/Footer'
-import { Contact } from './components/Contact/Contact'
 import Solution from './components/Solution'
 
 
