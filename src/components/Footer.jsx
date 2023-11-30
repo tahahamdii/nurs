@@ -14,7 +14,7 @@ const Footer = () => {
                 <p style={{ fontSize: '1.5rem' }} className='text-white font-light mt-10'>About</p>
                 <p style={{ fontSize: '1.5rem' }} className='text-white font-light mt-10'>Fonctionnalités</p>
                 <p href ='#'style={{ fontSize: '1.5rem' }} className='text-white font-light mt-10'>Contact</p>
-                <p href ='#'style={{ fontSize: '1.5rem' }} className='text-white font-light mt-10'>mehdighribaa@nursyai.com</p>
+                <p href ='#'style={{ fontSize: '1.5rem' }} className='text-white font-light mt-10'>mehdigribaa@nursyai.com</p>
 
 
             </div>
